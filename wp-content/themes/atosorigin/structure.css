@@ -1,0 +1,49 @@
+/*
+This stylesheet holds the main page structure.
+*/
+@CHARSET "UTF-8";
+
+#page {
+	width: 				930px;
+	left:				50%;
+	margin-left:		-465px;
+	position:			absolute;	
+}
+
+#header {
+	width: 				930px; 
+	height: 			286px;
+}
+
+#right_column{
+	width: 				200px; 
+	float: 				left;
+}
+
+#left_column{
+	width: 				190px; 
+	float: 				left;
+	padding-left: 		5px;	
+	padding-right: 		5px;	
+}
+
+#main_column{
+	width:				505px;
+	float:				left;
+	padding-left: 		5px;	
+	padding-right: 		20px;	
+}
+
+#wide_column{
+	width:				705px;
+	float:				left;
+	padding-left: 		5px;	
+	padding-right: 		20px;	
+}
+
+#footer {
+	clear: 				both;
+	width: 				930px;
+	height: 			53px;
+}
+
