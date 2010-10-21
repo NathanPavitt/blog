@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'your_database_name');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'your_user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'your_password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -79,7 +79,15 @@ define ('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
-
+define('WP_ALLOW_MULTISITE', true);
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', true );
+$base = '/';
+define( 'DOMAIN_CURRENT_SITE', 'atosorigin.local' );
+define( 'PATH_CURRENT_SITE', '/' );
+define( 'SITE_ID_CURRENT_SITE', 1 );
+define( 'BLOG_ID_CURRENT_SITE', 1 );
+define( 'SUNRISE', 'on' );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
